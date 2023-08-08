@@ -572,6 +572,11 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -654,6 +659,10 @@ video {
 
 .w-3\/4 {
   width: 75%;
+}
+
+.w-4\/5 {
+  width: 80%;
 }
 
 .appearance-none {
@@ -845,6 +854,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 
 .shadow {
