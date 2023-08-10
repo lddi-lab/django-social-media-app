@@ -46,7 +46,7 @@
                 <p class="text-gray-700 text-base text-justify">{{ post.caption }}</p>
             </div>
         </div>
-        <div class="px-5 py-5">
+        <div class="px-5 py-5 bg-blue-400">
             {% for comment in post.comments.all %}
             {{ comment.body }}
             <br><hr>
